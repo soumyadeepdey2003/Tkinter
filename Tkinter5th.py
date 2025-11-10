@@ -2,6 +2,8 @@ from tkinter import *
 
 # calculater
 root=Tk()
+# this is for window Size(widthxheight)
+root.geometry("233x450")
 # add title to main wedget
 root.title("CALCULATER") 
 def g():
