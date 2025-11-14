@@ -8,7 +8,8 @@ options = ["IT", "HR", "Finance", "Sales"]
 
 #Make a variable to track what is selected (type: StringVar)
 selected_option = StringVar()
-selected_option.set(options[0])  # default value shown
+selected_option.set(options[0])
+  # default value shown
 
 #Create the dropdown
 dropdown = OptionMenu(root, selected_option, *options)
